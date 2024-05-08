@@ -1,5 +1,6 @@
 import { useState } from "react";
 import OutreachForm from "./OutreachForm";
+import "./global.css";
 
 function App() {
   return (

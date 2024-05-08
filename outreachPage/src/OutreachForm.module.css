@@ -1,3 +1,8 @@
+.body {
+  padding: 0px;
+  margin: 0px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -10,14 +15,36 @@ form {
   display: flex;
   flex-direction: row;
   padding: 20px;
+
+  justify-content: space-around;
+}
+
+.row div input {
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 17px;
+  padding: 10px;
 }
 
 #row1 {
   background-color: pink;
 }
 
+#row1 div input {
+  width: 400px;
+}
+
 #row2 {
   background-color: yellow;
+}
+
+#addressInput {
+  width: 700px;
+}
+
+#messageInput {
+  height: 200px;
+  width: 700px;
 }
 
 #row3 {
