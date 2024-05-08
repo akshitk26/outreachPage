@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+#row1 {
+  background-color: pink;
+}
+
+#row2 {
+  background-color: yellow;
+}
+
+#row3 {
+  background-color: lightblue;
+}
